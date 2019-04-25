@@ -1,6 +1,7 @@
 class Graph::Vertex
-  attr_accessor :attachment
   attr_reader :uid, :graph
+  attr_accessor :attachment
+  
   @@autoincrement_counter = 0
 
   def initialize(attachment = nil)
