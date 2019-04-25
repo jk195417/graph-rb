@@ -1,6 +1,6 @@
 # Graph
 
-A ruby gem for graph, data structure.
+A ruby gem for graph, data structure. https://rubygems.org/gems/graph-rb
 
 ## Installation
 
