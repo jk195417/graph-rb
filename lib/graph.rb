@@ -99,4 +99,6 @@ class Graph
     @edges.delete_at idx
     self
   end
+
+  alias << add
 end
