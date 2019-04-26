@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2019-04-26
+
 ### Added
 
 - `Graph::Edge` have a new attribue named `weight`
@@ -25,5 +27,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - class `Graph::Vertex`
 - class `Graph::Edge`
 
-[Unreleased]: https://github.com/jk195417/graph-rb/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/jk195417/graph-rb/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/jk195417/graph-rb/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/jk195417/graph-rb/releases/tag/v0.1.0
