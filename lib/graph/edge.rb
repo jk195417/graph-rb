@@ -1,12 +1,16 @@
 class Graph::Edge
-  attr_reader :ukey, :graph, :from, :to
+  attr_reader :key, :graph, :from, :to
   attr_accessor :weight
 
-  def initialize(from, to, weight: weight)
+  def initialize(from, to, weight: 1)
     @from = from
     @to = to
+    @key = "from_#{from.key}_to_#{to.key}"
     @weight = weight
-    @ukey = "from_#{from.uid}_to_#{to.uid}"
+  end
+
+  def to_h
+    { from: from.key, to: to.key, weight: weight }
   end
 
   private
