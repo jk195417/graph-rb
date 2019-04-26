@@ -29,9 +29,16 @@ edge1 = Graph::Edge.new(vertex1, vertex2)
 edge2 = Graph::Edge.new(vertex1, vertex3)
 edge3 = Graph::Edge.new(vertex2, vertex3)
 
-graph.add edge1
-graph.add edge2
-graph.add edge3
+# add vertex or edge to graph
+graph << vertex1
+graph << edge3
+
+# delete vertex or edge to graph
+graph.delete edge3
+graph.delete vertex1
+
+# show graph in a hash
+graph.to_h
 ```
 
 ## Development
