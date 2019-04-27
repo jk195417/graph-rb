@@ -7,7 +7,7 @@ A ruby gem for graph, data structure. https://rubygems.org/gems/graph-rb
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'graph-rb'
+gem 'graph-rb', require: 'graph'
 ```
 
 And then execute:
@@ -21,6 +21,8 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+require 'graph'
+
 graph = Graph.new
 vertex1 = Graph::Vertex.new
 vertex2 = Graph::Vertex.new
